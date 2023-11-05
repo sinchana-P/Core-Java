@@ -1,6 +1,6 @@
 public class Test {
 
-    public static void main(String args[]){         // C-Style Array declaration
+    public static void main(String[] args){         // C-Style Array declaration
         System.out.print("Hello World!!  ");
         System.out.println("Hello World");
 
