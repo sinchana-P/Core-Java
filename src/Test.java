@@ -114,4 +114,7 @@ class Student {
 
     // For_Each : used to traverse Array/Collection.
 
+// 11. Break & Continue Statements
+// Break : loops terminate on specified condition
+// Continue : continue loop with next iteration
 
