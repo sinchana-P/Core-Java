@@ -8,6 +8,7 @@ public class Student {
 
     // Constructor to initialize data members
     public Student(int id, String name, String city) {
+        System.out.println("Creating Object");
         studentId = id;
         studentName = name;
         studentCity = city;
@@ -35,6 +36,7 @@ public class Student {
 }
 
 
+// ---------- old code starts ------- Error ----------
 
 //package oops;
 //
@@ -63,6 +65,7 @@ public class Student {
 //    }
 //}
 
+// ---------- old code ends ------- Error ----------
 
 
 
@@ -95,3 +98,14 @@ public class Student {
 
 
 
+// 2. Constructor : Constructor is used to initialize the data of the object.
+// Gets called Automatically, when we create constructor.
+// Properties of Constructor:
+// 1. Name == Class Name
+// 2. Constructor does not return any value. Not even void.
+// 3. a. Non-Parameterized Constructor e.g. Public Student(){}
+//    b. Parameterized Constructor     e.g. Public Student(int a, int b, int c){}
+//    c. Default Constructor           : When Java creates automatically.
+//                                       If class does not have any constructor then Java creates one default constructor.
+
+//
