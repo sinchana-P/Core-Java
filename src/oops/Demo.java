@@ -23,6 +23,10 @@ public class Demo {
 
         st2.study((float) 7.3);
 
+        Dog d1 = new Dog();
+        d1.eating();
+        System.out.println(d1.color);
+
     }
 }
 

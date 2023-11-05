@@ -165,4 +165,32 @@ public class Student {
 // this()
 // -> is used for calling current class constructor from inside different constructor of same class.
 
+// 5. Inheritance:
+// -> It is the mechanism in Java by which one class is allowed to inherit the features (properties & methods) of another class.
+// using "extends" : keyword
+
+// Animal <- Dog
+// class Dog extends Animal
+
+// 3 Names:
+// Child Class
+// Sub Class
+// Derived Class
+
+// 3 Names:
+// Parent Class
+// Super Class
+// Base Class
+
+// Types of Inheritance:
+// 1. Single Inheritance : 1 p : 1 c
+// 2. MultiLevel Inheritance : A (x) <- B (x+y) <- C (x+y+z)
+// 3. Hierarchical Inheritance : 1 p : n children
+// 4. Multiple Inheritance : n parents : 1 child
+        // Multiple Inheritance: is not possible in Java using Classes
+        // But can be achieved using Interface.
+// 5. Hybrid Inheritance : Combination
+// 6. Cyclic Inheritance : loop : A -> A, A -> B -> A : Java does not support this
+
+
 
