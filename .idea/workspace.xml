@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a91dc29-25f9-4ee1-a721-2128aa1d0664" name="Changes" comment="If Statements">
-      <change afterPath="$PROJECT_DIR$/src/Swich_Example.java" afterDir="false" />
+    <list default="true" id="4a91dc29-25f9-4ee1-a721-2128aa1d0664" name="Changes" comment="Switch Statements">
+      <change afterPath="$PROJECT_DIR$/src/Loops_Example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Switch_Example">
+  <component name="RunManager" selected="Application.ArraySum">
+    <configuration name="ArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraySum" />
+      <module name="Core-Java-1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="If_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="If_Example" />
       <module name="Core-Java-1" />
@@ -54,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Student" />
+    <configuration name="Loops_Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops_Example" />
       <module name="Core-Java-1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,10 +85,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArraySum" />
+        <item itemvalue="Application.Loops_Example" />
         <item itemvalue="Application.Switch_Example" />
         <item itemvalue="Application.If_Example" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Student" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1699164904326</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Switch Statements">
+      <created>1699165683458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699165683458</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Switch Statements">
+      <created>1699165730663</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699165730663</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -172,6 +195,7 @@
     <MESSAGE value="Operators" />
     <MESSAGE value="Fix : Local variable 'd' is redundant" />
     <MESSAGE value="If Statements" />
-    <option name="LAST_COMMIT_MESSAGE" value="If Statements" />
+    <MESSAGE value="Switch Statements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switch Statements" />
   </component>
 </project>

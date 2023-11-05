@@ -97,3 +97,21 @@ class Student {
 // 8. if Statements: Simple If, If Else, Ladder, Nested
 
 // 9. Switch Statement
+
+// 10. Loops: For Repeating Statements n number of times.
+    // For, While, Do_While, For_Each
+
+    // 2 conditions:
+    // 1. start : initialization
+    // 2. end : termination condition
+    // 3. steps : jumps/ increment/ decrement
+            // i++
+            // i = i+2
+            // i = i+3
+
+    // While loop: Entry Control Loop.
+    // Do_While: Exit Control Loop.
+
+    // For_Each : used to traverse Array/Collection.
+
+
