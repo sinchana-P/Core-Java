@@ -1,41 +1,3 @@
-package oops;
-
-public class Student {
-    // Data Members: Instance Variables
-    int studentId;
-    String studentName;
-    String studentCity;
-
-    // Constructor to initialize data members
-    public Student(int id, String name, String city) {
-        System.out.println("Creating Object");
-        studentId = id;
-        studentName = name;
-        studentCity = city;
-    }
-
-    // Member methods (functions)
-    public void study() {
-        System.out.println(studentName + " is studying");
-    }
-
-    public void showFullDetails() {
-        System.out.println("My name is: " + studentName);
-        System.out.println("My id is: " + studentId);
-        System.out.println("My city is: " + studentCity);
-    }
-
-    public static void main(String[] args) {
-        // Creating a Student object and initializing its data members
-        Student student = new Student(1, "John", "New York");
-
-        // Calling methods on the Student object
-        student.study();
-        student.showFullDetails();
-    }
-}
-
-
 // ---------- old code starts ------- Error ----------
 
 //package oops;
@@ -67,6 +29,52 @@ public class Student {
 
 // ---------- old code ends ------- Error ----------
 
+package oops;
+
+public class Student {
+    // Data Members: Instance Variables
+    int studentId;
+    String studentName;
+    String studentCity;
+
+    // Constructor to \initialize data members
+    public Student() {
+        System.out.println("Creating Object : Non-Parameterized Constructor");
+    }
+    //    Constructor Overloading
+    public Student(int id, String name, String city) {
+        System.out.println("Creating Object : Parameterized");
+        studentId = id;
+        studentName = name;
+        studentCity = city;
+    }
+
+    // Member methods (functions)
+    public void study() {
+        System.out.println(studentName + " is studying");
+    }
+
+    // Method Overloading
+    public double study(float f){
+        System.out.println("Method Overloading " + f);
+        return 7.7;
+    }
+
+    public void showFullDetails() {
+        System.out.println("My name is: " + studentName);
+        System.out.println("My id is: " + studentId);
+        System.out.println("My city is: " + studentCity);
+    }
+
+    public static void main(String[] args) {
+        // Creating a Student object and initializing its data members
+        Student student = new Student(1, "John", "New York");
+
+        // Calling methods on the Student object
+        student.study();
+        student.showFullDetails();
+    }
+}
 
 
 
@@ -108,4 +116,23 @@ public class Student {
 //    c. Default Constructor           : When Java creates automatically.
 //                                       If class does not have any constructor then Java creates one default constructor.
 
-//
+
+
+// 3. Overloading
+    // a. Constructor Overloading
+        // At least one must be there for constructor overloading.
+        // * Parameters shd not be similar
+        // * Number of arguments -> Different
+        // * type of argument -> Different
+        // * Order of argument -> Different
+
+    // b. Method Overloading
+        // Having multiple methods in same class with same name.
+        // At least one must be there for method overloading.
+        // * Parameters shd not be similar
+        // * Number of arguments -> Different
+        // * type of argument -> Different
+        // * Order of argument -> Different
+
+
+

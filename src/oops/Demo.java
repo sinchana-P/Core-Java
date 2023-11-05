@@ -3,6 +3,9 @@ package oops;
 public class Demo {
     public static void main(String[] args) {
         // now creating object of Student
+        Student st0 = new Student();
+        System.out.println();
+
         Student st1;
         st1 = new Student(123,"RAM", "Delhi");
 
@@ -17,6 +20,9 @@ public class Demo {
         Student st2 = new Student(171, "SHYAM", "MUMBAI");
         st2.study();
         st2.showFullDetails();
+
+        st2.study((float) 7.3);
+
     }
 }
 
