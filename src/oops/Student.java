@@ -39,19 +39,45 @@ public class Student {
 
     // Constructor to \initialize data members
     public Student() {
+        // to call other constructor in this constructor depending on the "argument".
+        this(77);
         System.out.println("Creating Object : Non-Parameterized Constructor");
     }
+
+    public Student(int a){
+        System.out.println();
+        System.out.println("parameterized constructor : (int) " + a);
+        System.out.println();
+    }
     //    Constructor Overloading
-    public Student(int id, String name, String city) {
+//    public Student(int id, String name, String city) {
+//        System.out.println("Creating Object : Parameterized");
+//        studentId = id;
+//        studentName = name;
+//        studentCity = city;
+//    }
+
+    // this : keyword
+    public Student(int id, String studentName, String studentCity) {
         System.out.println("Creating Object : Parameterized");
         studentId = id;
-        studentName = name;
-        studentCity = city;
+
+        // to refer it as, the current object's variable using this keyword. If this is not used the local value (like: studentName) won't reach the object's variable (studentName).
+        this.studentName = studentName;
+        this.studentCity = studentCity;
+
+        // studentName = studentName;
+        // studentCity = studentCity;
     }
+
 
     // Member methods (functions)
     public void study() {
         System.out.println(studentName + " is studying");
+
+        // this: keyword
+        // this -> refers to the current invoking object.
+        System.out.println(this.studentCity);
     }
 
     // Method Overloading
@@ -134,5 +160,9 @@ public class Student {
         // * type of argument -> Different
         // * Order of argument -> Different
 
+// 4. this : keyword
+// Refers to the current invoking object    e.g.   t.show()     "t" is current invoking object.
+// this()
+// -> is used for calling current class constructor from inside different constructor of same class.
 
 
