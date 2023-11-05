@@ -96,4 +96,4 @@ class Student {
 
 // 8. if Statements: Simple If, If Else, Ladder, Nested
 
-
+// 9. Switch Statement
