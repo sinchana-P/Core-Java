@@ -27,6 +27,8 @@ public class Demo {
         d1.eating();
         System.out.println(d1.color);
 
+        d1.getX();
+
     }
 }
 

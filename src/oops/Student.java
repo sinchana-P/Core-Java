@@ -40,6 +40,7 @@ public class Student {
     // Constructor to \initialize data members
     public Student() {
         // to call other constructor in this constructor depending on the "argument".
+        // this() : must be the first line of constructor
         this(77);
         System.out.println("Creating Object : Non-Parameterized Constructor");
     }
@@ -110,37 +111,37 @@ public class Student {
 
 // OOPS: Object Oriented Programming System
 
-// Program -> Style, Paradigm, Methodology
-// 1. Procedural Programming -> one uses procedures.
-// 2. Functional Programming -> one uses functions to write whole program.
-// 3. OOPS Programming -> one uses Class & Objects to write program.
-        // OOPS, provides more benefits/features like : Polymorphism, Inheritance, Abstraction etc...
+    // Program -> Style, Paradigm, Methodology
+    // 1. Procedural Programming -> one uses procedures.
+    // 2. Functional Programming -> one uses functions to write whole program.
+    // 3. OOPS Programming -> one uses Class & Objects to write program.
+            // OOPS, provides more benefits/features like : Polymorphism, Inheritance, Abstraction etc...
 
-// OOPS : is a concept,
-    // languages supports: C++, Java, Python
+    // OOPS : is a concept,
+        // languages supports: C++, Java, Python
 
-// Class:
-// * Logical Entity : Originally doesn't exist
-// * It has Properties (Data) & Behaviours (Methods)
-// Car
-// On Paper -> Theory -> Properties (color, shape) -> Behaviour (move, light)
-// On Paper Ready
+    // Class:
+        // * Logical Entity : Originally doesn't exist
+        // * It has Properties (Data) & Behaviours (Methods)
+        // Car
+        // On Paper -> Theory -> Properties (color, shape) -> Behaviour (move, light)
+        // On Paper Ready
 
-// Object:
-// * Real Entity
-// * It gets Properties (Data) & Behaviours (Methods)
+    // Object:
+        // * Real Entity
+        // * It gets Properties (Data) & Behaviours (Methods)
 
 
 
 // 2. Constructor : Constructor is used to initialize the data of the object.
-// Gets called Automatically, when we create constructor.
-// Properties of Constructor:
-// 1. Name == Class Name
-// 2. Constructor does not return any value. Not even void.
-// 3. a. Non-Parameterized Constructor e.g. Public Student(){}
-//    b. Parameterized Constructor     e.g. Public Student(int a, int b, int c){}
-//    c. Default Constructor           : When Java creates automatically.
-//                                       If class does not have any constructor then Java creates one default constructor.
+    // Gets called Automatically, when we create constructor.
+    // Properties of Constructor:
+    // 1. Name == Class Name
+    // 2. Constructor does not return any value. Not even void.
+    // 3. a. Non-Parameterized Constructor e.g. Public Student(){}
+    //    b. Parameterized Constructor     e.g. Public Student(int a, int b, int c){}
+    //    c. Default Constructor           : When Java creates automatically.
+    //                                       If class does not have any constructor then Java creates one default constructor.
 
 
 
@@ -161,36 +162,43 @@ public class Student {
         // * Order of argument -> Different
 
 // 4. this : keyword
-// Refers to the current invoking object    e.g.   t.show()     "t" is current invoking object.
-// this()
-// -> is used for calling current class constructor from inside different constructor of same class.
+    // Refers to the current invoking object    e.g.   t.show()     "t" is current invoking object.
+    // this()
+    // -> is used for calling current class constructor from inside different constructor of same class.
 
 // 5. Inheritance:
-// -> It is the mechanism in Java by which one class is allowed to inherit the features (properties & methods) of another class.
-// using "extends" : keyword
+    // -> It is the mechanism in Java by which one class is allowed to inherit the features (properties & methods) of another class.
+    // using "extends" : keyword
 
-// Animal <- Dog
-// class Dog extends Animal
+    // Animal <- Dog
+    // class Dog extends Animal
 
-// 3 Names:
-// Child Class
-// Sub Class
-// Derived Class
+    // 3 Names:
+    // Child Class
+    // Sub Class
+    // Derived Class
 
-// 3 Names:
-// Parent Class
-// Super Class
-// Base Class
+    // 3 Names:
+    // Parent Class
+    // Super Class
+    // Base Class
 
-// Types of Inheritance:
-// 1. Single Inheritance : 1 p : 1 c
-// 2. MultiLevel Inheritance : A (x) <- B (x+y) <- C (x+y+z)
-// 3. Hierarchical Inheritance : 1 p : n children
-// 4. Multiple Inheritance : n parents : 1 child
-        // Multiple Inheritance: is not possible in Java using Classes
-        // But can be achieved using Interface.
-// 5. Hybrid Inheritance : Combination
-// 6. Cyclic Inheritance : loop : A -> A, A -> B -> A : Java does not support this
+    // Types of Inheritance:
+    // 1. Single Inheritance : 1 p : 1 c
+    // 2. MultiLevel Inheritance : A (x) <- B (x+y) <- C (x+y+z)
+    // 3. Hierarchical Inheritance : 1 p : n children
+    // 4. Multiple Inheritance : n parents : 1 child
+            // Multiple Inheritance: is not possible in Java using Classes
+            // But can be achieved using Interface.
+    // 5. Hybrid Inheritance : Combination
+    // 6. Cyclic Inheritance : loop : A -> A, A -> B -> A : Java does not support this
+
+// 6. super : keyword
+    // super keyword : Refer to the immediate parent.
+    // 1. To access Parent Class's Properties & Methods.     e.g : super.x
+    // 2. super() : used to call parent class constructor from inside child class constructor.
+
+
 
 
 
