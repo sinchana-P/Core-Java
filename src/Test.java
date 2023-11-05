@@ -35,4 +35,26 @@ class Student {
 
     // ✨Value of variables can vary/changed.
 
+// Data Types
+    // 2 Types:
+    // 1. Primitive Data Types
+    // 2. Non-Primitive Data Types/ Reference Data Types/ User Defined Data Types
 
+// 1. Primitive Data Types
+
+    // inbuilt with languages
+    // 8 types:
+
+// boolean - 1 bit
+// byte  - 8 bits (0/1 combination)
+// char -- 16 bits
+
+// short - 16 bits
+// int  - 32 bits
+// long - 64 bits
+
+// float - point - 32 bits - upto 7 decimal digits
+// double - point - 64 bits - upto 16 decimal digits
+
+// 2. Non-Primitive Data Types/ Reference Data Types/ User Defined Data Types
+    // Created by user
