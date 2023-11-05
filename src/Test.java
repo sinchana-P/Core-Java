@@ -14,10 +14,9 @@ public class Test {
 //        Type casting
 //          1. Implicit Type Casting
         int i = 50;
-        double d = i;
 
         System.out.println(i);
-        System.out.println(d);
+        System.out.println((double) i);
 
 //          2. Explicit Type Casting
         double my_double = 37.77;
